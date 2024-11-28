@@ -1,6 +1,6 @@
 ![logo](_media/icon.svg)
 
-# LucienLSA的个人MD笔记
+LucienLSA的个人MD笔记
 
 > 希望看到这里的人幸福！
 
