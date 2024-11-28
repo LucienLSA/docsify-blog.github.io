@@ -2,6 +2,6 @@
 
 ## 目录
 
-* [go Web编程](/study/GoLang/go-Web/README)
+* [快速入门-YX](/study/GoLang/go-Web/快速入门-YX)
 
 
