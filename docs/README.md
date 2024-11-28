@@ -1,6 +1,6 @@
 #  导读
 
-> [Lucien的个人MD笔记](https://lucienlsa.github.io/) ==> https://lucienlsa.github.io/
+> [Lucien的个人MD笔记](https://lucienlsa.github.io/docsify-blog/) ==> https://lucienlsa.github.io/docsify-blog/
 
 该项目用于记录个人学习笔记。
 
