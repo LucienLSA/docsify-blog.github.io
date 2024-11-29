@@ -60,3 +60,7 @@ bibtex i found no \citation
 
 
 [利用Overleaf使用Latex插入算法伪代码_overleaf伪代码-CSDN博客](https://blog.csdn.net/qq_45100200/article/details/132171188)
+
+
+
+[Latex合并多个公式且居中](https://blog.csdn.net/qq_43733107/article/details/)131774488

@@ -17,7 +17,6 @@
 * [**DataBase**](/study/DataBase/README)
 * [**Docker**](/study/Docker/README)
 * [**GitUse**](/study/GitUse/README)
-* [**Hexo**](/study/Hexo/README)
 * [**Matlab**](/study/Matlab/README)
 * [**Latex**](/study/Latex/README)
 * [**Vue**](/study/Vue/README)
@@ -32,5 +31,6 @@
 * [**迁移学习**](/study/迁移学习/README)
 * [**运维**](/study/运维/README)
 * [**操作系统**](/study/操作系统/README)
+* [**博客**](/study/博客/README)
 
 

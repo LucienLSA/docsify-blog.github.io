@@ -1,12 +1,4 @@
----
-title: 强化学习算法发展与介绍
-katex: true
-categories: 
-- reinforcement learning
-tags:
-- algorithm
-- RL
----
+
 # 强化学习算法介绍
 
 ## 视频来源
