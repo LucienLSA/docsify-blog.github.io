@@ -1,14 +1,4 @@
----
-title: Reinforcement Q -learning for optimal tracking control of linear discrete-time systems with unknown dynamics
-katex: true
-categories: 
-- ADP
-tags:
-- 论文笔记
-- 仿真
-- algorithm
-- Q-learning
----
+
 
 # Reinforcement Q -learning for optimal tracking control of linear discrete-time systems with unknown dynamics✩，2014， Bahare Kiumarsi ，Frank L. Lewis , Hamidreza Modares ，Ali Karimpour ，Mohammad-Bagher Naghibi-Sistani 
 

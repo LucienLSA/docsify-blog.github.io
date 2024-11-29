@@ -1,13 +1,4 @@
----
-title: Computational adaptive optimal control for continuous-time linear systems with completely unknown dynamics
-katex: true
-categories: 
-- ADP
-tags:
-- 论文笔记
-- 仿真
-- algorithm
----
+
 
 **文献代码来源: https://github.com/yu-jiang/Paper_Automatica2012_CTLTI.git**
 

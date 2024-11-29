@@ -1,11 +1,4 @@
----
-title: Fyne-GoGUI学习
-katex: true
-categories: 
-- golang
-tags:
-- Fyne
----
+
 
 # 资源来自
 [https://www.bilibili.com/video/BV1u142187Ps?p=1&vd_source=917ef87e48a267f0acc88f766dea0a6e](Go语言+Fyne快速上手教程[Go GUI应用开发|零基础Go实战速成])

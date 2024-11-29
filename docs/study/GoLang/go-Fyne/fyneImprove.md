@@ -1,11 +1,4 @@
----
-title: Fyne-GoGUI学习进阶
-katex: true
-categories: 
-- golang
-tags:
-- Fyne
----
+
 
 ## 案例检测是否开机
 进阶学习

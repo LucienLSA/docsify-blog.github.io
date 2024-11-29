@@ -1,13 +1,4 @@
----
-title: Model-Free Q-Learning for the Tracking Problem of Linear Discrete-Time Systems
-katex: true
-categories: 
-- ADP
-tags:
-- 论文笔记
-- 仿真
-- algorithm
----
+
 
 # Model-Free Q-Learning for the Tracking Problem of Linear Discrete-Time Systems，2024， Chun Li , Jinliang Ding , Senior Member, IEEE, Frank L. Lewis , Life Fellow, IEEE, and Tianyou Chai , Life Fellow, IEEE
 

@@ -1,13 +1,4 @@
----
-title: ADP-Based Optimal Control for Discrete-Time Systems With Safe Constraints and Disturbances
-katex: true
-categories: 
-- ADP
-tags:
-- 论文笔记
-- 仿真
-- algorithm
----
+
 
 # ADP-Based Optimal Control for Discrete-Time Systems With Safe Constraints and Disturbances，2024， Jun Ye , Hongyang Dong , Yougang Bian , Member, IEEE, Hongmao Qin, and Xiaowei Zhao , Member, IEEE
 

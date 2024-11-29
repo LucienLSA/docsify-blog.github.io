@@ -1,13 +1,4 @@
----
-title: Event-Triggered ADP for Tracking Control of Partially Unknown Constrained Uncertain Systems
-katex: true
-categories: 
-- ADP
-tags:
-- 论文笔记
-- 仿真
-- algorithm
----
+
 
 ## Event-Triggered ADP for Tracking Control of Partially Unknown Constrained Uncertain Systems，2022， Shan Xue, Biao Luo , Senior Member, IEEE, Derong Liu , Fellow, IEEE, and Ying Gao , Member, IEEE
 

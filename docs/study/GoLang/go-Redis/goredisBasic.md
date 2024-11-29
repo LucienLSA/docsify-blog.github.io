@@ -1,11 +1,4 @@
----
-title: go-redis基础学习
-katex: true
-categories: 
-- golang
-tags:
-- redis
----
+
 ## 学习资源
 
 [https://www.bilibili.com/video/BV1FY411d7JF/?spm_id_from=333.788.top_right_bar_window_custom_collection.content.click&amp;vd_source=917ef87e48a267f0acc88f766dea0a6e](【码神之路】go-redis教程，十年大厂程序员讲解，通俗易懂)

@@ -5,6 +5,7 @@
     * [**Backend**](/study/Backend/README)
     * [**DataBase**](/study/DataBase/README)
     * [**Git**](/study/Git/README)
+    * [**Hexo**](/study/Hexo/README)
     * [**Matlab**](/study/Matlab/README)
     * [**分布式系统**](/study/分布式系统/README)
     * [**Vue**](/study/Vue/README)

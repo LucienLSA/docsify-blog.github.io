@@ -1,13 +1,4 @@
----
-title: Event-Triggered Adaptive Critic Control Design for Discrete-Time Constrained Nonlinear Systems
-katex: true
-categories: 
-- ADP
-tags:
-- 论文笔记
-- 仿真
-- algorithm
----
+
 
 # Event-Triggered Adaptive Critic Control Design for Discrete-Time Constrained Nonlinear Systems Mingming Ha, Ding Wang , Member, IEEE, and Derong Liu , Fellow, IEEE
 

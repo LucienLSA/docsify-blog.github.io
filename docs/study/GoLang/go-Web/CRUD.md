@@ -1,13 +1,3 @@
----
-title: golang-gin-gorm-mysql的最基础的CRUD项目
-katex: true
-categories: 
-- golang
-tags:
-- gin
-- gorm
-- mysql
----
 
 
 ## 学习资源

@@ -1,11 +1,4 @@
----
-title: golang语言小项目-即时通信系统
-katex: true
-categories: 
-- golang
-tags:
-- golang
----
+
 
 ## 即时通信系统
 windows下使用telnet时，能够顺利链接和断开，但输入指令进行通信存在问题。安装windows下的ncat工具（即linux中的nc）

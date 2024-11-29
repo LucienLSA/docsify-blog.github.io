@@ -1,12 +1,4 @@
----
-title: MYSQL底层原理学习
-katex: true
-categories: 
-- mysql
-tags:
-- 笔记
-- mysql
----
+
 
 ## InnoDB数据页结构
 ### 行格式

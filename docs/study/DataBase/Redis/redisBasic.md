@@ -1,12 +1,4 @@
----
-title: redis 基础学习
-katex: true
-categories: 
-- redis
-tags:
-- redis
-- golang
----
+
 ## centos7 下载安装redis
 
 [https://blog.csdn.net/wangzhilong1996/article/details/136901595](CentOS 7下载安装Redis)

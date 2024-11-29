@@ -1,13 +1,4 @@
----
-title: Web清单项目
-katex: true
-categories: 
-- golang
-tags:
-- gin
-- gorm
-- mysql
----
+
 
 # 加载前端静态文件
 

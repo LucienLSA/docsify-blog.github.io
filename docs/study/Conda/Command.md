@@ -1,12 +1,4 @@
----
-title: 【anaconda】conda创建、查看、删除虚拟环境
-katex: true
-categories: 
-- anaconda
-tags:
-- anaconda
-- 环境配置
----
+
 ## 源
 
 豆瓣(douban) http://pypi.douban.com/simple/

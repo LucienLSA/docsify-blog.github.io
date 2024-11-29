@@ -1,13 +1,4 @@
----
-title: Value Iteration Adaptive Dynamic Programming for Optimal Control of Discrete-Time Nonlinear Systems
-katex: true
-categories: 
-- ADP
-tags:
-- 论文笔记
-- 仿真
-- algorithm
----
+
 
 # Value Iteration Adaptive Dynamic Programming for Optimal Control of Discrete-Time Nonlinear Systems ，2016. Qinglai Wei, Member, IEEE, Derong Liu, Fellow, IEEE, and Hanquan Lin
 

@@ -1,13 +1,4 @@
----
-title: Discrete-Time Nonlinear HJB Solution Using Approximate Dynamic Programming Convergence Proof
-katex: true
-categories: 
-- ADP
-tags:
-- 论文笔记
-- 仿真
-- algorithm
----
+
 # Discrete-Time Nonlinear HJB Solution Using Approximate Dynamic Programming: Convergence Proof ，2008, Asma Al-Tamimi; Frank L. Lewis; Murad Abu-Khalaf  IEEE Transactions on Systems
 
 ## 主要研究内容 

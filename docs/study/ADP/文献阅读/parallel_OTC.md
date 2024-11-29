@@ -1,13 +1,3 @@
----
-title: Parallel Control for Optimal Tracking via Adaptive Dynamic Programming
-katex: true
-categories: 
-- ADP
-tags:
-- 论文笔记
-- 仿真
-- algorithm
----
 
 
 

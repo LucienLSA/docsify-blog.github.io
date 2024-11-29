@@ -1,11 +1,4 @@
----
-title: 记录使用golang过程遇到问题
-katex: true
-categories: 
-- golang
-tags:
-- golang
----
+
 [【已解决】--go_out: protoc-gen-go: Plugin failed with status code 1.-CSDN博客](https://blog.csdn.net/js010111/article/details/125392266)
 
 [[系列] Gin 框架 - 使用 logrus 进行日志记录 - 程序员新亮 - 博客园](https://www.cnblogs.com/xinliangcoder/p/11212573.html)

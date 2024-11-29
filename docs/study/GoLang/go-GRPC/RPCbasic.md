@@ -1,12 +1,4 @@
----
-title: gRPC基本概念与运用
-katex: true
-categories: 
-- golang
-tags:
-- golang
-- gRPC
----
+
 
 ## 概念
 远程过程调用（Remote Procedure Call，RPC）是一种通过网络从远程计算机程序上请求服务，而不需要了解底层网络技术的技术。它是一种通过网络通信的过程，客户端程序调用远程服务时，就像调用本地函数一样，只不过这个调用是远程的。

@@ -1,14 +1,4 @@
----
-title: 事件触发控制
-katex: true
-categories: 
-- ADP
-tags:
-- 论文笔记
-- 仿真
-- algorithm
-- 事件触发
----
+
 
 ## 事件触发控制学习
 $\dot x=Ax+Bu$

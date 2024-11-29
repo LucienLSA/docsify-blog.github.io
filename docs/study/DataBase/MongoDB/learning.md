@@ -1,11 +1,3 @@
----
-title: 记录使用MongoDB
-katex: true
-categories: 
-- MongoDB
-tags:
-- MongoDB
----
 
 
 

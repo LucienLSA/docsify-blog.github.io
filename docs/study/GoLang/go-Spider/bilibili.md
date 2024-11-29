@@ -1,11 +1,4 @@
----
-title: go语言爬虫项目-b站视频评论爬取
-katex: true
-categories: 
-- go
-tags:
-- spider
----
+
 
 [https://www.bilibili.com/video/BV1CR4y1g7wB/?vd_source=917ef87e48a267f0acc88f766dea0a6e]
 

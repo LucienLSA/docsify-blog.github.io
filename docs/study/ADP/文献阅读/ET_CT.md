@@ -1,13 +1,4 @@
----
-title: Event-Triggered Adaptive Dynamic Programming for Continuous-Time Systems With Control Constraints
-katex: true
-categories: 
-- ADP
-tags:
-- 论文笔记
-- 仿真
-- algorithm
----
+
 
 # Event-Triggered Adaptive Dynamic Programming for Continuous-Time Systems With Control Constraints Lu Dong, Student Member, IEEE, Xiangnan Zhong, Changyin Sun, and Haibo He, Senior Member, IEEE
 

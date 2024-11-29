@@ -1,12 +1,4 @@
----
-title: mysql数据库学习
-katex: true
-categories: 
-- mysql
-tags:
-- linux
-- mysql
----
+
 ## 数据库基础知识
 
 ### 数据
