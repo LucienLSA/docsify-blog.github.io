@@ -1,8 +1,8 @@
-# Issues
+# go-Redis
 
 ## 目录
 
-* [goredisBasic](/study/GoLang/Issues)
+* [goredisBasic](/study/GoLang/go-Redis/goredisBasic)
 
 
 

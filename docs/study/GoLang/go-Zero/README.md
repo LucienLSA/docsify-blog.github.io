@@ -2,6 +2,6 @@
 
 ## 目录
 
-* [goZeroStudy](/study/GoLang/go-GRPC/goZeroStudy)
+* [goZeroStudy](/study/GoLang/go-Zero/goZeroStudy)
 
 

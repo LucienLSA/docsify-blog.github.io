@@ -2,7 +2,7 @@
 
 ## 目录
 
-* [go-Baisc](/study/GoLang/go-Baisc/README)
+* [go-Basic](/study/GoLang/go-Basic/README)
 * [go-Fyne](/study/GoLang/go-Fyne/README)
 * [go-Gin](/study/GoLang/go-Gin/README)
 * [go-Gorm](/study/GoLang/go-Gorm/README)
