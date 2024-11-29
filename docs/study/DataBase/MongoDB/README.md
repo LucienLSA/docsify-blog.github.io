@@ -2,5 +2,5 @@
 
 ## 目录
 
-* [MongoDB夯实基础视频-学习笔记](/study/DataBase/MongoDB/MongoDB夯实基础视频-学习笔记)
+* [学习记录](/study/DataBase/MongoDB/learning)
 
