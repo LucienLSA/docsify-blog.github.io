@@ -51,3 +51,5 @@ E:\Study\Tools\ViVeTool-v0.3.3>
 [本文介绍了如何刷新和清除Windows DNS缓存，包括使用“运行”对话框、命令提示符和Windows PowerShell的方法。如果你不确定要使用哪种方法，请从运行对话框方法开始。注意：本文中_windows 刷新dns-CSDN博客](https://blog.csdn.net/wyxtx/article/details/135899801)
 
 [Nginx详解](https://blog.csdn.net/hyfsbxg/article/details/122322125)
+
+[npm 删除全部依赖包](https://blog.csdn.net/DarlingYL/article/details/120972047)

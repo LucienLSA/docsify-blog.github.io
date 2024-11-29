@@ -1,18 +1,4 @@
----
-title: 撰写论文思路和想法总结
-katex: true
-categories: 
-- ADP
-tags:
-- 论文撰写
-- 仿真
-password: lsa0723
-abstract: 这里有东西被加密喽, 请输入密码查看呢！
-message: hello! 这里是需要密码才能解锁噢！
-theme: xray
-wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试呢！
-wrong_hash_message: 抱歉, 这个文章不能被校验, 不过你还是能看看解密后的内容！
----
+
 # 小论文撰写想法和思路
 ## 论文写作的第一步
 ### 模仿框架，学习方法
