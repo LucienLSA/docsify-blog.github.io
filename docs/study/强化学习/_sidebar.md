@@ -1,6 +1,6 @@
 * **目录**
   * [根目录（/）](/README)
   * [回到上一级（../）](/README)
-  * [NetworkNotes](/study/网络基础/NetworkNotes)
+  * [RL教程b站](/study/强化学习/RL教程b站)
   
 

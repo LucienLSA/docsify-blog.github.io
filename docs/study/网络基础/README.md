@@ -2,4 +2,4 @@
 
 ## 目录
 
-  * [Command](/study/网络基础/NetworkNotes)
+  * [NetworkNotes](/study/网络基础/NetworkNotes)

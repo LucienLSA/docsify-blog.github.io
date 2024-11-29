@@ -21,5 +21,6 @@
     * [**强化学习**](/study/强化学习/README)
     * [**迁移学习**](/study/迁移学习/README)
     * [**运维**](/study/运维/README)
+    * [**操作系统**](/study/操作系统/README)
 * 暂无更多...
 
