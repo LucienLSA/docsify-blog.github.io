@@ -1,12 +1,4 @@
----
-title: c++11及以上新特性      # 文章标题
-author: Lucien
-katex: true
-categories: 
-- cpp
-tags:
-- cpp
----
+
 # new
 
 ## 局部变量和堆变量

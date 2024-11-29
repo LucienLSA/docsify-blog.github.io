@@ -1,14 +1,4 @@
----
-title: 并发网络通信-套接字通信(C/C++ 多线程)
-katex: true
-categories: 
-- cpp
-- 网络
-tags:
-- socket
-- 网络通信
-- linux
----
+
 
 # 网络通信-套接字socket
 ## 概念

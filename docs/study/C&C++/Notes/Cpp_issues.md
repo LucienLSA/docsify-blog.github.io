@@ -1,12 +1,4 @@
----
-title: 学习C++所遇到的问题
-katex: true
-categories: 
-- Cpp学习与问题记录
-tags:
-- Cpp
-- algorithm
----
+
 
 # mingw64的版本问题
 [https://blog.csdn.net/weixin_43455581/article/details/135692389](windows下编译报‘mutex‘ in namespace ‘std‘ does not name a type的解决方案)

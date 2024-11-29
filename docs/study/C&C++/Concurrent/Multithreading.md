@@ -1,11 +1,4 @@
----
-title: 多线程编程
-katex: true
-categories: 
-- cpp
-tags:
-- cpp
----
+
 ## c++11 Thead线程库的基本使用
 
 ### 什么是进程

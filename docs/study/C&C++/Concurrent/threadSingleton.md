@@ -1,12 +1,4 @@
----
-title: 线程安全的单例模式
-katex: true
-categories: 
-- cpp
-tags:
-- cpp
-- concurrent
----
+
 [https://gitbookcpp.llfc.club/sections/cpp/concurrent/concpp05.html](介绍C++ 线程安全的单例模式如何实现，通过介绍单例模式的演变历程)
 
 ### 线程安全的单例模式
