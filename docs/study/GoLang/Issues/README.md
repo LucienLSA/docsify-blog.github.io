@@ -2,7 +2,7 @@
 
 ## 目录
 
-  * [Issues](/study/GoLang/Issues)
+  * [Issues](/study/GoLang/Issues/Issues)
 
 
 

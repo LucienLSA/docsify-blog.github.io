@@ -1,6 +1,6 @@
 * **目录**
   * [根目录（/）](/README)
-  * [回到上一级（../）](/README)
+  * [回到上一级（../）](/study/ADP/README)
   * [CT_UnknownSys](/study/ADP/文献阅读/CT_UnknownSys)
   * [ET_basic](/study/ADP/文献阅读/ET_basic)
   * [ET_CT](/study/ADP/文献阅读/ET_CT)
