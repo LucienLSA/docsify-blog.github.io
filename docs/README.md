@@ -26,7 +26,7 @@
 * [**QT**](/study/QT/README)
 * [**Windows**](/study/Windows/README)
 * [**网络基础**](/study/网络基础/README)
-* [**分布式系统**](/study/分布式系统/README)
+* [**后端**](/study/后端/README)
 * [**强化学习**](/study/强化学习/README)
 * [**迁移学习**](/study/迁移学习/README)
 * [**运维**](/study/运维/README)

@@ -63,4 +63,4 @@ bibtex i found no \citation
 
 
 
-[Latex合并多个公式且居中](https://blog.csdn.net/qq_43733107/article/details/)131774488
+[Latex合并多个公式且居中](https://blog.csdn.net/qq_43733107/article/details/131774488)
