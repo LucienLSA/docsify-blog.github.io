@@ -1,4 +1,4 @@
-<!-- ![logo](_media/icon.svg) -->
+![logo](_media/icon.jpg)
 
 LucienLSA的个人MD笔记
 

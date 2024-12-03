@@ -806,4 +806,226 @@ func (a *app) Delete() (err error) {
 #### 动态路由（带参数的路由）
 - 根据路由参数，创建出一族不同的页面
 
+## JSON
+### JSON与Go的struct
+
+```json
+{
+	"id":123,
+	"name":"go",
+	"country":"USA",
+}
+```
+
+#### Tags
+```go
+type Company struct {
+	ID     int    `json:"id"`
+	Name   string `json:"name"`
+	Contry string `json:"country"`
+}
+```
+
+#### 类型映射
++ go bool: JSON boolean
++ go float: JSON 数组
++ go string: JSON string
++ go nil : JSON null
+
+#### 对于未知结构的JSON
++ map[string]interface{} 可存储任意类型的JSON对象
++ []interface{} 可存储任意类型的JSON数组
+
+#### 读取JSON
++ 需要一个解码器
+	- dec := json.NewDecoder(r.Body)
+	- 参数需要Reader接口
++ 解码器进行解码
+	- dec.Decode(&query)
+
+#### 写入JSON
+1. 编码器与解码器
++ 需要一个编码器
+	- enc := json.NewEncoder(w)
+	- 参数需要Writer接口
++ 编码器进行编码
+	- enc.Encode(data)
+	
+```go
+func main() {
+	http.HandlerFunc("/companies",func(w http.ResponseWriter, r *http.Request){
+		switch r.Method {
+			case http.MethodPost:
+				dec := json.NewDecoder(r.Body)
+				company := Company{}
+				err := dec.Decode(&company)
+				if err != nil {
+					log.Println(err.Error())
+					w.WriteHeader(http.StatusBadRequest)
+					return
+				}
+				enc := json.NewEncoder(w)
+				err = enc.Encode(company)
+				if err != nil {
+					log.Println(err.Error())
+					w.WriteHeader(http.StatusInternalServerError)
+					return
+				}
+				defalut:
+					w.WriteHeader(http.StatusMethodNotAllowed)
+					return
+		}
+	})
+}
+```
+2. Marshal 和 Unmarshal
++ Marshal 编码 : 把go struct 转化为json格式
++ Unmarshal 解码 ： 把json格式转化为go struct
+
+针对string或bytes类型，可直接使用Marshal和Unmarshal
+
+针对stream类型，可使用json.NewDecoder和json.NewEncoder
+
+##  中间件
+放在请求和Handler之间，对请求和响应进行拦截和处理
+
+### 创建中间件
+
+### 用途
++ 日志
++ 安全
++ 请求超时
++ 响应压缩
++ 跨域
+
+### 例子（身份认证）
+```go
+func main() {
+	http.HandleFunc("/companies", func(w http.ResponseWriter, r *http.Request) {
+		c := Company{
+			ID:      123,
+			Name:    "gggoolle",
+			Country: "USA",
+		}
+		enc := json.NewEncoder(w)
+		enc.Encode(c)
+	})
+	// 使用中间件
+	http.ListenAndServe("localhost:8080", new(middleware.AuthMiddleware))
+}
+```
+创建middleware中间件下的文件auth.go
+```go
+package middleware
+package middleware
+
+import "net/http"
+
+// 链式结构， Next 设置为 什么，下一个handler 就是什么
+// AuthMiddleware ..
+type AuthMiddleware struct {
+	Next http.Handler
+}
+
+func (am *AuthMiddleware) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	// 如果只有一个中间件，改中间件的字段next 为nil, 交给默认路由器处理
+	if am.Next == nil {
+
+		am.Next = http.DefaultServeMux
+	}
+	// 判断auth
+	auth := r.Header.Get("Authorization")
+	if auth != "" {
+		// before 路由
+		am.Next.ServeHTTP(w, r)
+		// after 路由
+	} else {
+		w.WriteHeader(http.StatusUnauthorized)
+	}
+}
+```
+
+## 请求上下文
+一个请求经过中间件的预处理或者后处理，Handler接收该请求，可能会应用model层，访问数据库、web service、文件系统等，这些操作都需要一些上下文信息，比如用户信息、请求参数、请求路径、请求方法等，这些信息都可以封装在请求上下文中，在Handler中通过Context获取。
+### RequestContext
++ 返回请求的上下文
+```go
+func (*Request) Context() context.Context
+```
+
++ 基于Context进行修改，创建一个新的Context
+```go
+func (*Request) WithContext(context context.Context) context.Context
+```
+#### context.Context
++ 是一个接口，定义了上下文的基本接口
+```go
+type Context interface {
+	Deadline() (deadline time.Time, ok bool)
+	Done() <-chan struct{}
+	Err() error
+	Value(key interface{}) interface{}
+}
+```
+只能读取不能修改
+#### Context API 可返回新的Context
++ WithCancel()，有一个CancelFunc，可以取消Context
++ WithDeadline()，有一个Deadline，可以设置时间戳
++ WithValue()，可以设置键值对
++ WithTimeout()，设置超时时间，返回新的Context
+
+
+## HTTPS
+### HTTP
+HTTP明文传输，不安全，容易被窃听、篡改、重放攻击
+### HTTPS
+HTTPS加密传输，安全，防止中间人攻击、数据篡改、重放攻击。
+TLS协议，建立在SSL/TLS协议之上，提供身份认证、加密通讯、数据完整性校验等功能。
+#### HTTP ListenAndServeTLS
+开发环境可使用go的库生成私人的证书
+```go
+http.ListenAndServeTLS(":8080", "server.pem", "key.pem", nil)
+```
+
+
+## HTTP/2
+### HTTP /1.1
+建立TCP协议中，请求包含header和body，响应也是。header中包含的内容也比较多，当请求较多时会导致效率下降
+
+### HTTP /2
+在TCP协议的通信中，建立流stream，独立的通信管道，多个信息来回传输。stream中通过Frame发送信息。
+
+独立的Frame可单独优化，即每个数据类型都可以单独优化
++ 请求的多路复用
++ Header压缩
++ 默认安全
++ Serve Push
+	- 如果请求一个/home路径，包含/css/app/css文件，预先发送给客户端。节省请求时的时间
+
+## 测试
++ 测试代码所在文件名称以_test结尾
++ 生产编译，不包含_test结尾的文件
++ 测试编译，包含_test结尾的文件
+
+func TestUpdatesModifiedTime(t *testing.T) {}
++ 测试函数名应以Test开头（需要导出）
++ 函数名需要表达出被验证的特性
++ 测试函数的参数类型 *testing.T，提供测试相关的工具
+
+### 测试Model层
+
+
+### 测试Controller层
+
+## 性能分析
+内存消耗、CPU使用、阻塞的goroutine、执行追踪、web页面：实时数据
+
+### 分析工具
+```go
+import _ "net/http/pprof"
+```
+
+## Linux 部署
+
+
 
