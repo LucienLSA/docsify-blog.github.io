@@ -11,6 +11,6 @@
 * [go-Spider](/study/GoLang/go-Spider/README)
 * [go-Web](/study/GoLang/go-Web/README)
 * [go-Zero](/study/GoLang/go-Zero/README)
-* [go-GMP](/study/GoLang/go-GMP/README)
+* [go-原理分析](/study/GoLang/go-原理分析/README)
 * [Issues](/study/GoLang/Issues/README)
 * [go](/study/GoLang/Issues/README)

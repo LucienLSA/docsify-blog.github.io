@@ -28,7 +28,9 @@
 
 [Go语言实现将[]string转化为[]byte_go string to byte-CSDN博客](https://blog.csdn.net/john_f_lau/article/details/51475995)
 
-(调用接口时不时出现 Error: socket hang up)[https://blog.csdn.net/fang0604631023/article/details/136175538]
+[调用接口时不时出现 Error: socket hang up](https://blog.csdn.net/fang0604631023/article/details/136175538)
+
+[go语言web开发系列之二十一:用go-qrcode库生成二维码](https://blog.csdn.net/weixin_43881017/article/details/112790066)
 
 # 问题描述
 
