@@ -1,7 +1,24 @@
 
+## 遇到问题的解决方案参考
+
+(Anaconda 查看、添加、删除 安装源)[https://blog.csdn.net/David_jiahuan/article/details/104544957]
+
+(Conda 替换镜像源方法尽头，再也不用到处搜镜像源地址)[https://blog.csdn.net/adreammaker/article/details/123396951]
+
+(解决：Collecting package metadata (current_repodata.json)/ Solving environment)[https://blog.csdn.net/ermmtt/article/details/132628639]
+
+(【Python】conda镜像配置，.condarc文件详解，channel镜像)[https://blog.csdn.net/Code_LT/article/details/134928013]
+
+(安装CUDA以及GPU版本的pytorch)[https://blog.csdn.net/qq_66608435/article/details/141606279]
+
+(【CUDA】【PyTorch】安装 PyTorch 与 CUDA 11.7 的详细步骤)[https://blog.csdn.net/Stromboli/article/details/142705892]
+
 ## 源
 
 豆瓣(douban) http://pypi.douban.com/simple/
+
+## 显示已配置的源
+conda config --show-sources
 
 ## 一、管理conda：
 
