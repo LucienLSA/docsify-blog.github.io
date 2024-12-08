@@ -1,7 +1,6 @@
-# go-原理分析
+# go-设计模式
 
 ## 目录
 
-* [go-GMP](/study/GoLang/go-基础原理/GMP实现原理)
-* [go-Context](/study/GoLang/go-基础原理/context实现原理) 
-* [go-单机锁](/study/GoLang/go-基础原理/go-单机锁)
+* [单例模式](/study/GoLang/go-设计模式/单例模式)
+
