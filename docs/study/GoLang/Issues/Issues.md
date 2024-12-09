@@ -32,6 +32,8 @@
 
 [go语言web开发系列之二十一:用go-qrcode库生成二维码](https://blog.csdn.net/weixin_43881017/article/details/112790066)
 
+[手把手教你如何高效发布自己的Go语言库到GitHub](https://www.oryoy.com/news/golang-shi-zhan-shou-ba-shou-jiao-ni-ru-he-gao-xiao-fa-bu-zi-ji-de-go-yu-yan-ku-dao-github.html)
+
 # 问题描述
 
 1. 关于空指针
