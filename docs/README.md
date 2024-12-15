@@ -1,5 +1,5 @@
 #  导读
-
+**stop updating**
 > [Lucien的个人MD笔记](https://lucienlsa.github.io/docsify-blog.github.io/) ==> https://lucienlsa.github.io/docsify-blog.github.io/
 
 该项目仅用于记录个人学习笔记。
